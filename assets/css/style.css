@@ -4,59 +4,35 @@
   background-color: darkblue;
 }
 
-header {
+header,
+footer {
   color: white;
   text-align: center;
-  margin: 10px;
+  margin: 25px;
 }
 
 p {
   margin: 14px;
-}
-
-<<<<<<< HEAD
-.horizontal-boxes {
-  display: flex; /* Use flexbox to align the boxes horizontally */
-  /* Distribute space between the boxes */
+  color: white;
 }
 
 .box {
   background-color: purple;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed white;
 }
-.top {
+.top,
+.horizontal-boxes {
   display: flex;
-=======
-.top-box, .bottom-box{
-    display:flex;
+  justify-content: center;
 }
 
-main{
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-}
-
-.box1, .box2, .box3{
-    flex-wrap:wrap;
-    margin:10px;
-    height:200px;
-    width: 200px;
-    background-color:pink;
-}
-
-.box4, .box5, .box6{
-flex-wrap:wrap;
-margin:10px;
-height:300px;
-width: 200px;
-background-color:pink;
-}
-
-footer {
-  margin-bottom: 10px;
-  color:white;
-  text-align:center;
->>>>>>> d64f38336a7200f4c5e91631ece80f00996eedbe
+div p {
+  z-index: 1;
+  border: 3px solid white;
+  width: 150px;
+  height: 25px;
+  position: fixed;
+  text-align: center;
 }
