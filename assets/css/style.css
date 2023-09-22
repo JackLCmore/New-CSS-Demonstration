@@ -1,18 +1,29 @@
 * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   background-color: darkblue;
 }
+
 header {
   color: white;
   text-align: center;
   margin: 10px;
 }
+
 p {
   margin: 14px;
 }
-.box1 {
+
+.horizontal-boxes {
+  display: flex; /* Use flexbox to align the boxes horizontally */
+  /* Distribute space between the boxes */
 }
-footer {
-  margin-bottom: 10px;
+
+.box {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+}
+.top {
+  display: flex;
 }
