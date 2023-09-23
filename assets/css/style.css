@@ -15,6 +15,7 @@ footer {
 p {
   margin: 14px;
   color: white;
+  font-size: 16px;
 }
 
 .box {
@@ -37,14 +38,15 @@ p {
 h2 {
   z-index: 1;
   border: 3px solid white;
-  width: 200px;
+  width: 300px;
   height: 25px;
   position: relative;
   text-align: center;
   color: white;
-  font-size: 16px;
-  margin-top: -2%;
-  left: 100px;
+  font-size: 24px;
+  margin-top: -4%;
+  left:7%;
+  padding:10px;
 }
 pre {
   color: white;
@@ -53,6 +55,11 @@ pre {
   margin-top: 25%;
 }
 footer {
-  font-size: 20px;
+  font-size: 24px;
   font-family: sans-serif;
+}
+
+h1{
+    font-size:40px;
+    font-weight: bold;
 }
